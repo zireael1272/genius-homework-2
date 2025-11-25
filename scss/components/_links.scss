@@ -1,0 +1,23 @@
+.link {
+  text-decoration: none;
+  color: var(--color-brand-dark);
+  line-height: 100%;
+  cursor: pointer;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: var(--white);
+  line-height: 100%;
+  cursor: pointer;
+}
+
+.link:hover,
+.footer-link:hover {
+  color: var(--color-brand);
+}
+
+.form-terms-link {
+  color: var(--copyright-grey);
+  text-underline-offset: 2px;
+}
